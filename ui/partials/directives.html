@@ -1,0 +1,37 @@
+<style>
+    .form-row {
+        padding-bottom: .5em;
+    }
+
+    .css-form input.ng-invalid.ng-dirty {
+        background-color: #FA787E;
+    }
+
+    .css-form input.ng-valid.ng-dirty {
+        background-color: #78FA89;
+    }
+</style>
+
+
+
+<div fade-in>
+
+    <div class="container">
+    <h1>Custom Directives</h1>
+    <hr style="margin-bottom: 2em;">
+        <div class="form-row">
+            <h3>
+                Template-expanding directive
+            </h3>
+            <hr>
+        </div>
+        <div class="well">
+            <div ng-controller="CustomDirectivesController">
+  				<div my-customer></div>
+			</div>
+        </div>
+      
+
+    </div>
+
+</div>
